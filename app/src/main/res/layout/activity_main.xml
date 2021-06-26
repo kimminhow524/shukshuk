@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center"
+        android:text="슉슉슉"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:enabled="false"/>
+
+    <TextView
+        android:id="@+id/tarea"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="#EFE8E8"
+        android:clickable="true"
+        android:enabled="false"
+        android:hint="버튼을 클릭해주세요"
+        android:textColor="#000000"
+        android:visibility="visible" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="205dp"
+        android:src="@drawable/suck"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/clip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:text="클립보드로 복사"
+        android:textColor="#000000"
+        android:visibility="visible"
+        app:backgroundTint="#CDDC39" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="슉"
+            android:textColor="#000000"
+            app:backgroundTint="#DBD6D6"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="슈슉"
+            android:textColor="#000000"
+            app:backgroundTint="#DBD6D6"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="슈발럼아"
+            android:textColor="#000000"
+            app:backgroundTint="#DBD6D6"
+            app:rippleColor="#4C3232"
+            style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
